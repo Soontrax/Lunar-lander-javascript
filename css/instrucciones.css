@@ -1,0 +1,26 @@
+html,body{
+	background-image: url(../img/fondo-espacial-fullhd.png);
+	background-repeat: no-repeat 
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#centro{
+	position: fixed;
+    width: 30%;
+    height: 67%;
+    top: 20%;
+    left: 42%;
+    margin-top: -25px; 
+    margin-left: -100px; 
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 31px; 
+    font-size: 140%;
+    object-fit: scale-down;
+}
+p{
+	color: white;
+}
