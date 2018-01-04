@@ -12,7 +12,7 @@ var a = g; //la aceleración cambia cuando se enciende el motor de a=g a a=-g (s
 var velocidad = null;
 var altura = null;
 var combustible = null;
-var aterrizado = true;
+var aterrizado = false;
 
 //al cargar por completo la página...
 window.onload = function(){
@@ -80,10 +80,13 @@ function moverNave(){
 	if (y<70){ 
 		document.getElementById("nave").style.top = y+"%"; 
 	} else { 
+		aterrizado=true;
 		stop();
 	}
 }
 function motorOn(){
+
+	document.getElementById("imgMotor").style.display="block";
 	//el motor da aceleración a la nave
 	a=-g;
 	//mientras el motor esté activado gasta combustible
@@ -94,6 +97,7 @@ function motorOff(){
 	a=g;
 	clearInterval(timerFuel);
 	timerFuel=null;
+	document.getElementById("imgMotor").style.display="none";
 }
 function actualizarFuel(){
 	//Restamos combustible hasta que se agota
@@ -101,3 +105,4 @@ function actualizarFuel(){
 	if (c < 0 ) c = 0;
 	combustible.innerHTML=c.toFixed(0);	
 }
+

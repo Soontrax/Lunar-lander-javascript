@@ -1,8 +1,10 @@
 body,html{
-	background-image: url(../img/movil-pantalla.png);
+	background-image: url(../img/fondo-espacial-fullhd.png);
 	background-repeat: no-repeat;
+	background-position: center ;
 	background-size: cover;
-	background-attachment: fixed;
+	margin:0px;
+	height:100%;
 }
 .a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px}
 .b{width:100%;height:100%;overflow:hidden;}
@@ -11,4 +13,6 @@ body,html{
 #nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
 #nave img{height:100%;}
 #cpanel{}
-#hidem,#showm{float:right}
+#hidem,#showm{
+	float:right
+}

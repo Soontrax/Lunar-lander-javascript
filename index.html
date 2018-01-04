@@ -11,11 +11,13 @@
 </head>
 <body>
  <div id="nave">
- <img src="img/nave.png" alt="img nave">
+ <img id="nave1" src="img/nave.png" alt="img nave">
+ <img id ="imgMotor" src="img/motor.gif" alt="img motor">
  </div>
  <div class="a">
  <div id="showm">show menu</div>
- 	<div class="marcadores">
+ 	<div id="marcador1">
+ 	<img id="velocimetro" src="img/velocidad.png">
  	Velocidad:
  	<br>
  	<b>
@@ -23,7 +25,8 @@
  	</b>
  	m/s
  	</div>
- 	<div class="marcadores">
+ 	<div id="marcador2">
+ 	<img id="altitud" src="img/altura.png">
  	Altura:
  	<br>
  	<b>
@@ -31,7 +34,8 @@
  	</b>
  	m
  	</div>
- 	<div class="marcadores">
+ 	<div id="marcador3">
+ 	<img id="gasolina" src="img/fuel.png">
  	Fuel
  	<br>
  	<b>
@@ -44,12 +48,30 @@
  <div class="b">b</div>
  <div class="c">
  <div id="hidem">hide menu</div>
- <ul id="menu">
-  <li>Jugar</li>
-  <li>Instrucciones</li>
-  <li>Acerca de...</li>
- </ul>
+	<div id="reanudar"><p>Play</p></div>
+	<div id="pausa">Pausar</div>
+	<div id="reinicia"><p>Reiniciar</p></div>
+	<div id="ajustes"><p>Ajustes</p></div>
  </div>
  <div class="d">d</div>
+
+ <div id="gameOver">
+	<h2>¡¡¡GAME OVER!!!</h2>
+	¡Inténtalo de nuevo! <br>
+	La velocidad de la nave no debe superar los 5 metros/segundo<br><br>
+	<button id="jugarOtraVez"><h3>Probar otra vez</h3></button>
+	<button id="jugarOtraVezSmartphone"><h3>Probar otra vez</h3></button>
+	<br><br>
+	Intentos realizados: <b><span id="intentos">0</span></b><br><br>
+</div>
+
+<div id="userWin">
+	<h2>¡¡¡ENHORABUENA!!!</h2>
+	La NASA estaría orgullosa de contar con pilotos como tú...<br><br>
+	<img src="img/Enhorabuena.gif"><br>
+	<button id="jugarAgain"><h3>Jugar otra vez</h3></button>
+	<button id="jugarAgainSmartphone"><h3>Jugar otra vez</h3></button><br><br>
+</div>
+
 </body>
 </html>
