@@ -27,7 +27,7 @@ html,body{
 	margin-bottom: 15px;
 	border: 3px solid black;
 	font-size: 120%;
-
+	border-radius: 7px;
 }
 #marcador2{
 	background-color: green;
@@ -37,8 +37,7 @@ html,body{
 	margin-bottom: 15px;
 	border: 3px solid black;
 	font-size: 120%;
-
-
+	border-radius: 7px;
 }
 #marcador3{
 	background-color: orange;
@@ -48,6 +47,7 @@ html,body{
 	margin-bottom: 15px;
 	border: 3px solid black;
 	font-size: 120%;
+	border-radius: 7px;
 }
 
 #velocimetro{
@@ -64,9 +64,9 @@ html,body{
 }
 #reanudar {
 	border-style: outset;
-    border-color: #2E8B57;
+    border-color: black;
     float: right;
-    background-color: #00FA9A;
+    background-color: #ff8c00;
     margin: 15px;
     margin-top: 0%;
     color: black;
@@ -80,29 +80,33 @@ html,body{
     background-position: 50% 50%;
     pointer-events: auto;
     margin-right: -8px;
+    box-shadow: 6px 6px 0px black;
+    border-radius: 7px;
 }
 #pausa {
 	border-style: outset;
-    border-color: #2E8B57;
+    border-color: black;
     display: inline-block;
     float: right;
-    background-color: #00FA9A;
+    background-color: #ff8c00;
     margin: 15px;
     margin-top: 0%;
     color: black;
     text-align: center;
     font-size: 0%;
     background-image: url(../img/pausa.png);
-    width: 75px;
+    width: 70px;
     height: 70px;
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 50% 50%;
+    box-shadow: 6px 6px 0px black;
+    border-radius: 7px;
 }
 
 #reinicia {
 	border-style: outset;
-	border-color: #2E8B57;
+	border-color: black;
 	display: inline-block;
 	width: 70px; 
 	height: 70px;
@@ -111,21 +115,23 @@ html,body{
 	color: black;
 	text-align: center;
 	vertical-align: text-top;
-	background-color: #00FA9A;
+	background-color: #ff8c00;
 	margin: 15px;
 	margin-top: 0%;
 	background-image: url("../img/restart.png");
 	background-repeat: no-repeat;
 	background-size: 50%;
 	background-position: 50% 50%;
+	box-shadow: 6px 6px 0px black;
+	border-radius: 7px;
 }
 
 #ajustes{
 	border-style: outset;
-	border-color: #2E8B57;
+	border-color: black;
 	display: inline-block;
 	float: right;
-	background-color: #00FA9A;
+	background-color: #ff8c00;
 	margin: 15px;
 	margin-top: 0%;
 	width: 70px;
@@ -137,6 +143,8 @@ html,body{
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-position: 50% 50%;
+	box-shadow: 6px 6px 0px black;
+	border-radius: 7px;
 }
 
 #imgMotor {

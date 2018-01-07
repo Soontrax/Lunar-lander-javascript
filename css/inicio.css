@@ -8,14 +8,20 @@ html,body{
 #ins {
     margin-top: 150px;
     margin-left: 558px;
+    border-color: black;
+    border-radius: 7px;
 }
 
 #iniciar {
     margin-top: 0px;
     margin-left: 557px;
+    border-radius: 7px;
+    border-color: black;
 }
 
 #acercade {
     margin-bottom: 126px;
     margin-left: 1112px;
+    border-radius: 7px;
+    border-color: black;
 }
