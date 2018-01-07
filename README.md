@@ -1,3 +1,5 @@
 # Lunar-lander-javascript
 
-https://rawgit.com/Soontrax/Lunar-lander-javascript/master/inicio.html
+__Desarrollado por:__ Alvaro Garrido Núñez.
+
+El rawgit de este proyecto lo podemos ver [aquí](https://rawgit.com/sergjime/Lunar-Landing/master/inicio.html).
