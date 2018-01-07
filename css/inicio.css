@@ -5,13 +5,17 @@ html,body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-#ins{
-	z-index: 1;
-    margin-top: 245px;
+#ins {
+    margin-top: 150px;
     margin-left: 558px;
 }
-#iniciar{
-	z-index: 0;
-    margin-top: 107px;
+
+#iniciar {
+    margin-top: 0px;
     margin-left: 557px;
+}
+
+#acercade {
+    margin-bottom: 126px;
+    margin-left: 1112px;
 }

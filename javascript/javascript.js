@@ -12,7 +12,7 @@ var a = g; //la aceleración cambia cuando se enciende el motor de a=g a a=-g (s
 var velocidad = null;
 var altura = null;
 var combustible = null;
-var aterrizado = true;
+var aterrizado = false;
 
 //al cargar por completo la página...
 window.onload = function(){
@@ -22,7 +22,14 @@ window.onload = function(){
 	combustible = document.getElementById("fuel");
 
 	
-	//definición de eventos
+	//Haciendo posible que se pausa la partida
+	document.getElementById("reanudar").onclick=function(){
+		reanudar();
+	};
+	document.getElementById("pausa").onclick=function(){
+		pausar();
+	};
+	
 	//mostrar menú móvil
     	document.getElementById("showm").onclick = function () {
 		document.getElementsByClassName("c")[0].style.display = "block";
@@ -42,15 +49,10 @@ window.onload = function(){
  	  }
 	}
 	//encender/apagar al apretar/soltar una tecla
-	window.onkeydown=function(e) {
-		var claveTecla;
-		if (window.event)
-			claveTecla = window.event.keyCode;
-		else if (e)
-			claveTecla = e.which;
-		if ((claveTecla==32))
-			{motorOn();
-			}
+	document.onkeydown = function(event){
+		if (event.keyCode == 32){
+			motorOn();
+		}
 	}
 	document.onkeyup = motorOff;
 	
@@ -80,10 +82,20 @@ function moverNave(){
 	if (y<70){ 
 		document.getElementById("nave").style.top = y+"%"; 
 	} else { 
-		stop();
+		document.getElementById("velocidad").innerHTML="";
+		document.getElementById("altura").innerHTML="";
+		aterrizado=true;
+		if (v>4) {
+			lose();
+		}
+		else {
+			win();
+		}
 	}
 }
 function motorOn(){
+
+	document.getElementById("imgMotor").style.display="block";
 	//el motor da aceleración a la nave
 	a=-g;
 	//mientras el motor esté activado gasta combustible
@@ -94,10 +106,38 @@ function motorOff(){
 	a=g;
 	clearInterval(timerFuel);
 	timerFuel=null;
+	document.getElementById("imgMotor").style.display="none";
 }
 function actualizarFuel(){
 	//Restamos combustible hasta que se agota
 	c-=0.1;
 	if (c < 0 ) c = 0;
-	combustible.innerHTML=c.toFixed(0);	
+	combustible.innerHTML=c.toFixed(0);
+	//Esto es para cuando el combustible llegue a 0 que no puedas seguir utilizando mas la gasolina
+	if (c<=0) {
+		motorOff();
+	}
+}
+
+function win(){
+	document.getElementById("Ganador").style.display = "block";
+	stop();
+}
+
+function lose(){
+	document.getElementById("nave1").src = "img/explosion.gif";
+	document.getElementById("Perdedor").style.display = "block";
+	stop();		
+}
+
+function reanudar() {
+	start();
+	document.getElementById("reanudar").style.display="none";
+	document.getElementById("pausa").style.display="inline-block";
+}
+
+function pausar() {
+	stop();
+	document.getElementById("pausa").style.display="none";
+	document.getElementById("reanudar").style.display="inline-block";
 }

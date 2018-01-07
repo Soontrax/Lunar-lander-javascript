@@ -11,45 +11,70 @@
 </head>
 <body>
  <div id="nave">
- <img src="img/nave.png" alt="img nave">
+ <img id="nave1" src="img/nave.png" alt="img nave">
+ <img id ="imgMotor" src="img/motor.gif" alt="img motor">
  </div>
  <div class="a">
  <div id="showm">show menu</div>
- 	<div class="marcadores">
- 	Velocidad:
+ 	<div id="marcador1">
+ 	<img id="velocimetro" src="img/velocidad.png">
+ 	<b>Velocidad</b>
  	<br>
  	<b>
  		<span id="velocidad">100</span>
  	</b>
- 	m/s
- 	</div>
- 	<div class="marcadores">
- 	Altura:
+ 	km/s
+ </div>
+ <div id="marcador2">
+ 	<img id="altitud" src="img/altura.png">
+ 	<b>Altura</b>
  	<br>
  	<b>
  		<span id="altura">100</span>
  	</b>
  	m
- 	</div>
- 	<div class="marcadores">
- 	Fuel
+ </div>
+ <div id="marcador3">
+ 	<img id="gasolina" src="img/fuel.png">
+ 	<b>Fuel</b>
  	<br>
  	<b>
  		<span id="fuel">100</span>
  	</b>
  	%
- 	</div>
 </div>
- </div>
+</div>
  <div class="b">b</div>
  <div class="c">
  <div id="hidem">hide menu</div>
- <ul id="menu">
-  <li>Jugar</li>
-  <li>Instrucciones</li>
-  <li>Acerca de...</li>
- </ul>
+	<div id="reanudar" style="display: none;">
+		<p>Play</p>
+	</div>
+	<div id="pausa" style="display: inline-block;">Pausar</div>
+	<a href="index.html"><div id="reinicia"><p>Reiniciar</p></div></a>
+	<div id="ajustes"><p>Ajustes</p></div>
  </div>
- <div class="d">d</div>
+ <div class="d">
+ 	<img id="luna" src="img/luna.png" alt="aterrizaje">
+ </div>
+
+<div id="Perdedor">
+	<h2>¡¡¡GAME OVER!!!</h2>
+	<img class="gifes" src="img/bombardeo.gif">
+	<br>
+	¡Nos has fallado camarada! <br>
+	Nos invaden los extraterrestres.<br>
+	<a href="index.html"><button id="Reintentar"><h3>Jugar otra vez</h3></button></a>
+	<br><br>
+</div>
+
+<div id="Ganador">
+	<h2>¡¡¡YOU WIN!!!</h2>
+	<img class="gifes" src="img/guardia-civil.gif">
+	<br>
+	Estamos orgullos de ti.Te ascedenderemos a capitan!!<br>
+	<a href="index.html"><button id="otravez"><h3>Jugar otra vez</h3></button></a>
+</div>
+
 </body>
 </html>
