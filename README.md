@@ -2,6 +2,17 @@
 
 __Desarrollado por:__ Alvaro Garrido Núñez.
 
+__Objetivos__
+* Coger el diseño base del profesor e ir retocando cada una de las partes de la pagina web, poner contadores en la izquierda y con diferente color y poner 3 botones en la parte superior derecha con colores llamativos y minimalistas.
+
+* Controlar la nave mediante la barra de espacio.
+
+* Ponerle fuego a la nave para que de la sensación de que esta despengando al darle al espacio.
+
+* Si la nave aterriza a una velocidad superior a los 4km/s automáticamente pierdes y saldrá un div con el enunciado de Game Over y saldrá un botón de reiniciar juego.Pero si ganas pues lo mismo un div con el enunciado de Ganador y saldrá un botón de reiniciar juego.
+
+* Luego en la parte superior derecha tendremos los botones de pausa,reiniciar y ajustes.
+ ´´dedededed´´´´
 __Formatos del juego__
 
 * Version PC
