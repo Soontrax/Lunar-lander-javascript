@@ -2,7 +2,7 @@
 
 __Desarrollado por:__ Alvaro Garrido Núñez.
 
-* Formatos del juego
+__Formatos del juego__
 
 * Version PC
 
