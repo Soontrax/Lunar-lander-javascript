@@ -37,4 +37,4 @@ __Formatos del juego__
 
 ![Version Móvil](https://github.com/Soontrax/Lunar-lander-javascript/blob/master/img/Lunar-Lander-mobile.png)
 
-Para poder ya disfurtar del juegos dale [aquí](https://rawgit.com/Soontrax/Lunar-lander-javascript/master/inicio.html).
+Para poder ya disfrutar del juegos dale [aquí](https://rawgit.com/Soontrax/Lunar-lander-javascript/master/inicio.html).
