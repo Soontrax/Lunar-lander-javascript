@@ -12,7 +12,10 @@ __Objetivos__
 * Si la nave aterriza a una velocidad superior a los 4km/s automáticamente pierdes y saldrá un div con el enunciado de Game Over y saldrá un botón de reiniciar juego.Pero si ganas pues lo mismo un div con el enunciado de Ganador y saldrá un botón de reiniciar juego.
 
 * Luego en la parte superior derecha tendremos los botones de pausa,reiniciar y ajustes.
- ´´dedededed´´´´
+ 
+	- En el Pausa cuando le demos se parara la nave y a la vez el mismo boton de pausa se cambiará al de reanudar y viceversa.
+	- En el boton de Reiniciar es simplemente un hipervinculo a la misma página.
+     
 __Formatos del juego__
 
 * Version PC
