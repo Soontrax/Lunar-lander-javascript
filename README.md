@@ -15,6 +15,8 @@ __Objetivos__
 * Coger el diseño base del profesor e ir retocando cada una de las partes de la pagina web, poner contadores en la izquierda y con diferente color y poner 3 botones en la parte superior derecha con colores llamativos y minimalistas.
 
 		-En los contadores y botones he puesto box-shadow para ponerle sombra y los marcos redondeados con border radius
+		-La nave esta creada con aseprite
+		
 
 * Controlar la nave mediante la barra de espacio.
 
