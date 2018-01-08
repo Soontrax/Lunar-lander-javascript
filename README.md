@@ -1,6 +1,6 @@
 # Lunar-lander-javascript
 
-__Desarrollado por:__ Alvaro Garrido Núñez.
+__Desarrollado por:__ Álvaro Garrido Núñez.
 
 __Página Principal__
 
