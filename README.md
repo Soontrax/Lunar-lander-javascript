@@ -22,6 +22,8 @@ __Objetivos__
 
 * Si la nave aterriza a una velocidad superior a los 4km/s automáticamente pierdes y saldrá un div con el enunciado de Game Over y saldrá un botón de reiniciar juego.Pero si ganas pues lo mismo un div con el enunciado de Ganador y saldrá un botón de reiniciar juego.
 
+* Cuando el combustible de gasolina llegue a 0% pues ya no funcione el combustible y no puedas seguir acelerando
+
 * Luego en la parte superior derecha tendremos los botones de pausa,reiniciar y ajustes.
  
 		- En el boton de Pausa cuando le demos se parara la nave y a la vez el mismo boton se cambiará al de reanudar y viceversa
