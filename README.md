@@ -28,6 +28,8 @@ __Objetivos__
 		- En el boton de Reiniciar es simplemente un hipervinculo a la misma página.
 		
 		- En el boton de ajustes se nos desplegará un menú con dificultades
+		
+* Luego en la version de móvil que haya un botón por el cual se desplieguen los botones de pausa, reiniciar,ajustes.
      
 __Formatos del juego__
 
