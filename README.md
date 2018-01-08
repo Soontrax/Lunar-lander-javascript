@@ -5,6 +5,8 @@ __Desarrollado por:__ Alvaro Garrido Núñez.
 __Objetivos__
 * Coger el diseño base del profesor e ir retocando cada una de las partes de la pagina web, poner contadores en la izquierda y con diferente color y poner 3 botones en la parte superior derecha con colores llamativos y minimalistas.
 
+		-En los contadores y botones he puesto box-shadow para ponerle sombra y los marcos redondeados
+
 * Controlar la nave mediante la barra de espacio.
 
 * Ponerle fuego a la nave para que de la sensación de que esta despengando al darle al espacio.
