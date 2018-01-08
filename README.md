@@ -26,6 +26,8 @@ __Objetivos__
  
 		- En el Pausa cuando le demos se parara la nave y a la vez el mismo boton de pausa se cambiará al de reanudar y viceversa.
 		- En el boton de Reiniciar es simplemente un hipervinculo a la misma página.
+		
+		- En el boton de ajustes se nos desplegará un menú con dificultades
      
 __Formatos del juego__
 
