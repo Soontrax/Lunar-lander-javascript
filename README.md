@@ -13,8 +13,8 @@ __Objetivos__
 
 * Luego en la parte superior derecha tendremos los botones de pausa,reiniciar y ajustes.
  
-	- En el Pausa cuando le demos se parara la nave y a la vez el mismo boton de pausa se cambiará al de reanudar y viceversa.
-	- En el boton de Reiniciar es simplemente un hipervinculo a la misma página.
+		- En el Pausa cuando le demos se parara la nave y a la vez el mismo boton de pausa se cambiará al de reanudar y viceversa.
+		- En el boton de Reiniciar es simplemente un hipervinculo a la misma página.
      
 __Formatos del juego__
 
