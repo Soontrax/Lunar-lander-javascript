@@ -8,7 +8,7 @@ __Página Principal__
 * Luego más abajo esta el boton de instrucciones que es un hipervinculo lleva a la página de instrucciones.html
 * Y por último en el extremo superior derecha tenemos el boton acerca de que es simplemte información acerca del desarrollador y que también es un hipervinculo que lleva a la página de acercade.html
 
-		-Las imagenes estan diseñadas de forma personaliza con ilustrator
+		-Las botones estan diseñadas de forma personaliza con ilustrator
 
 __Objetivos__
 
