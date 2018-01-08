@@ -2,7 +2,16 @@
 
 __Desarrollado por:__ Alvaro Garrido Núñez.
 
+__Página Principal__
+
+* He creado una página principal con los botones de Inciar que es un hipervinculo que lleva a la página index.html que es "el juego".
+* Luego más abajo esta el boton de instrucciones que es un hipervinculo lleva a la página de instrucciones.html
+* Y por último en el extremo superior derecha tenemos el boton acerca de que es simplemte información acerca del desarrollador y que también es un hipervinculo que lleva a la página de acercade.html
+
+		-Las imagenes estan diseñadas de forma personaliza con ilustrator
+
 __Objetivos__
+
 * Coger el diseño base del profesor e ir retocando cada una de las partes de la pagina web, poner contadores en la izquierda y con diferente color y poner 3 botones en la parte superior derecha con colores llamativos y minimalistas.
 
 		-En los contadores y botones he puesto box-shadow para ponerle sombra y los marcos redondeados
